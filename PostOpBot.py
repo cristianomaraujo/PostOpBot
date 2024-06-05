@@ -14,25 +14,6 @@ logo_url3 = "https://github.com/cristianomaraujo/PostOpBot/blob/main/capa3.jpg?r
 
 # Exibindo a imagem de logo na barra lateral
 st.sidebar.image(logo_url3, use_column_width=True, width=800)
-
-# Ajuste do CSS para mudar a cor da barra lateral
-st.markdown(
-    """
-    <style>
-    .css-1d391kg, .css-1d391kg .css-18e3th9 {
-        background-color: #FEBE37;
-    }
-    .main .block-container {
-        padding-top: 20px;
-        padding-right: 20px;
-        padding-left: 20px;
-        padding-bottom: 20px;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
 # Exibindo a imagem de logo central
 st.image(logo_url, use_column_width=True, width=800)
 
