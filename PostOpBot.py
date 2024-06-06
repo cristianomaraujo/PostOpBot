@@ -18,7 +18,7 @@ st.sidebar.image(logo_url3, use_column_width=True, width=800)
 st.image(logo_url, use_column_width=True, width=800)
 
 # Texto de abertura
-abertura = st.write("Hello! I'm PostOpBot, an AI-powered chatbot here to assist you with post-operative care following dental extraction surgery. To begin our conversation, simply type 'hello' or enter any questions you have about your recovery in the field below.")
+abertura = st.write("Hello! I'm PostOpBot, an AI-powered chatbot here to assist you with post-operative care following dental extraction surgery. To begin our conversation, simply type 'hello' in your native language (for example: Hi, Oi, Holá, Salut) or enter any questions you have about your recovery in the field below.")
 
 # Título da barra lateral
 st.sidebar.title("References")
