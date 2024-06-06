@@ -58,13 +58,14 @@ st.sidebar.markdown(
     """
     <style>
     .footer {
-        font-size: 10px;
+        font-size: 12px;
         text-align: justify;
     }
     </style>
     <div class="footer">1) Aloy-Prósper, A., Pellicer-Chover, H., Balaguer-Martínez, J., Llamas-Monteagudo, O., & Peñarrocha-Diago, M. (2020). Patient compliance to postoperative instructions after third molar surgery comparing traditional verbally and written form versus the effect of a postoperative phone call follow-up a: a randomized clinical study. Journal of Clinical and Experimental Dentistry, 12(10), e909.<br></div>
     <div class="footer">2) Alvira-González, J., & Gay-Escoda, C. (2015). Compliance of postoperative instructions following the surgical extraction of impacted lower third molars: a randomized clinical trial. Medicina Oral, Patología Oral y Cirugía Bucal, 20(2), e224.</div>
     <div class="footer">3) Shenoi, R. S., Rajguru, J. G., Parate, S. R., Ingole, P. D., Khandaitkar, S. R., & Karmarkar, J. S. (2021). Compliance of postoperative instructions following the surgical extraction of impacted lower third molars. Indian Journal of Dental Research, 32(1), 87-91.<br><br><br><br></div>
+    <div class="footer"><b>PostOpBot may make mistakes. Always remember to verify all information with your dental surgeon.</b></div>
     """,
     unsafe_allow_html=True
 )
